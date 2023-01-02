@@ -56,3 +56,83 @@
 
 삼항 연산자를 사용할 때<br>
    조건식이 단 한 개만 존재할 때 사용한다.<br>
+
+# 제어문
+▶ 조건문<br>
+▷ if문<br><br>
+
+   if(조건식){<br>
+      실행할 문장;<br>
+   }<br>
+   위 조건식에 상관없이 모두 검사<br>
+   if(조건식){<br>
+      실행할 문장;<br>
+   }<br>
+   if(조건식){<br>
+      실행할 문장;<br>
+   }...<br><br><br>
+
+
+   if(조건식){<br>
+      실행할 문장;<br>
+   }<br>
+   위 조건식이 참이 아니면 다음 조건식 검사, 참이면 다음 조건식들은 검사하지 않는다.<br>
+   else if(조건식){<br>
+      실행할 문장;<br>
+   }<br>
+   else if(조건식){<br>
+      실행할 문장;<br>
+   }<br>
+   ...<br>
+   else {<br>
+      실행할 문장;<br>
+   }<br><br><br>
+
+
+▷ switch문<br><br>
+
+   switch(변수명){<br>
+   case 값1:<br>
+      실행할 문장;<br>
+      break;<br>
+   case 값2:<br>
+      실행할 문장;<br>
+      break;<br>
+   case 값3:<br>
+      실행할 문장;<br>
+      break;<br>
+   case 값4:<br>
+      실행할 문장;<br>
+      break;<br>
+   ...<br>
+   default:<br>
+      실행할 문장;<br>
+      break;<br>
+   }<br><br>
+
+삼항 연산자, if문, switch문의 비교<br>
+   삼항 연산자 : 조건식이 1개 있을 경우 사용<br>
+   if문 : 조건식에 비교(>, <, >=, <=)연산자를 사용하거나, 여러 개의 조건식을 논리 연산자(&&, ||)로 연결할 때 사용<br>
+   switch문 : 하나의 변수에 여러 개의 값이 담길 수 있고, 각 값이 같은 지를 비교할 때 사용<br><br>
+
+대입 연산자(복합 대입 연산자, 누적 연산자)<br>
+   +=, -=, /=, *=, %=,...<br><br>
+
+   int money = 10000;<br>
+   //money = money - 1000;<br>
+   money -= 1000;<br>
+   System.out.println(돈);<br><br>
+
+   int data = 10;<br>
+   //data = data + 1;<br>
+   //data += 1;<br>
+   data++;<br>
+   System.out.println(data);<br><br>
+
+증감 연산자<br>
+   ++, --<br>
+
+   전위형 : 해당 라인부터 바로 적용<br>
+      ++data<br>
+   후위형 : 다음 라인부터 적용<br>
+      data++<br>
