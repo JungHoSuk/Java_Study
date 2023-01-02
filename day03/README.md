@@ -29,6 +29,6 @@
       << (LEFT SHIFT, 좌쉬프트), A << B, A를 왼쪽으로 B만큼 비트이동<br>
       >> (RIGHT SHIFT, 우쉬프트), A >> B, A를 오른쪽으로 B만큼 비트이동<br><br>
       
-   논리형boolean)<br>
+   논리형(boolean)<br>
    참 : true<br>
    거짓 : false<br>
