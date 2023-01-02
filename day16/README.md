@@ -38,6 +38,6 @@ MVC<br>
 	C(Controller) : DB에 접근할 수 있는 메소드들이 선언된 클래스<br>
 			- 접근 후 결과 값이 있을 경우 Model 객체에 담은 후 처리<br>
 			- 클래스명 뒤에 DAO라는 문자열을 붙여준다.<br>
-		 	- DAO(Data Access Object)<br>`
+		 	- DAO(Data Access Object)<br>
 
 
