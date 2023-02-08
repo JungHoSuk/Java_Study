@@ -75,15 +75,15 @@
  ### 서식문자(format)
    반드시 따옴표 안에서 작성한다.
 
-   %d   decimal(10진수 정수)
-   %o   octal(8진수 정수)
-   %x   hexadecimal(16진수 정수)
-   %f   float(실수)
-   %c   character(문자)
-   %s   string(문자열)
+   - %d   decimal(10진수 정수)
+   - %o   octal(8진수 정수)
+   - %x   hexadecimal(16진수 정수)
+   - %f   float(실수)
+   - %c   character(문자)
+   - %s   string(문자열)
    
  ### 출력 메소드
-   printf() : 서식문자를 사용하여 출력할 수 있으며, 자동으로 줄바꿈되지 않는다.
+   - printf() : 서식문자를 사용하여 출력할 수 있으며, 자동으로 줄바꿈되지 않는다.
    
  ### 상수
    - 항상 그대로인 수.
